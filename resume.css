@@ -1,0 +1,10 @@
+#pic{
+    padding: 10px;
+    border: 2px dotted black;
+    margin: 20px;
+    background-color: lightgrey;
+}
+tr:hover {background-color: coral;}
+td{
+    padding: 5px;
+}
