@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Bar Graph</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.bar-graph {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.bar {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.bar-label {
+    width: 200px;
+    font-weight: bold;
+}
+
+.bar-fill {
+    height: 30px;
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.bar-fill {
+    height: 30px;
+    background-color: #4caf50;
+    border-radius: 5px;
+    position: relative;
+}
+
+.bar-fill::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 14px;
+}
+    </style>
+</head>
+<body>
+    <div class="bar-graph">
+        <div class="bar">
+            <div class="bar-label">Communication</div>
+            <div class="bar-fill" style="width: 80%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Active Listening</div>
+            <div class="bar-fill" style="width: 70%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Empathy</div>
+            <div class="bar-fill" style="width: 90%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Teamwork</div>
+            <div class="bar-fill" style="width: 80%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Conflict Resolution</div>
+            <div class="bar-fill" style="width: 70%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Negotiation</div>
+            <div class="bar-fill" style="width: 60%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Patience</div>
+            <div class="bar-fill" style="width: 80%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Adaptability</div>
+            <div class="bar-fill" style="width: 70%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Leadership</div>
+            <div class="bar-fill" style="width: 80%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Networking</div>
+            <div class="bar-fill" style="width: 60%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Respect</div>
+            <div class="bar-fill" style="width: 90%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Positive Attitude</div>
+            <div class="bar-fill" style="width: 80%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Time Management</div>
+            <div class="bar-fill" style="width: 70%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Decision Making</div>
+            <div class="bar-fill" style="width: 60%;"></div>
+        </div>
+        <div class="bar">
+            <div class="bar-label">Cultural Awareness</div>
+            <div class="bar-fill" style="width: 70%;"></div>
+        </div>
+    </div>
+</body>
+</html>
